@@ -1,5 +1,5 @@
 module.exports = {
-  title: "hoodie",
+  title: "vivace",
   description: "Hello :) I'm Hudi who developed gatsby-starter-hoodie theme.",
   author: "Hudi",
   siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
