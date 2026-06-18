@@ -1,15 +1,15 @@
 ---
-title: "🎇 1. About gatsby-starter-hoodie"
-description: "Let's learn about gatsby-starter-hoodie."
-date: 2021-05-01
+title: "Transaction"
+description: "Transaction, ACID, Schedule"
+date: 2026-05-01
 update: 2021-05-01
 tags:
-  - hoodie
-  - about
-series: "Getting started your blog with gatsby-starter-hoodie"
+  - DB
+  - ACID
+series: "DataBase"
 ---
 
-## About gatsby-starter-hoodie
+## Transaction
 
 gatsby-starter-hoodie is a gatsby theme created for writing tech blogs. Markdown, Code Highlighting in various programming languages, and Katex syntax are supported. Also, you can easily categorize articles into tags and series.
 
