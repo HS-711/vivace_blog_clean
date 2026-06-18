@@ -9,19 +9,15 @@ tags:
 series: "DataBase"
 ---
 
-# Transaction
-
 ## ACID
 
-Atomicity(원자성), Consistency(일관성), Isolation(고립성), Durability(지속성)
+- Atomicity
 
-### Atomicity
+- Consistency
 
-### Consistency
+- Isolation
 
-### Isolation
-
-### Durability
+- Durability
 
 ## Transaction State
 
@@ -43,6 +39,3 @@ Concurrency-control schemes tradeoff between the amount of
 concurrency they allow and the amount of overhead that they incur.
 
 ## Isolation Level
-
-
-Follow the [Quick Start](/quick-start)
