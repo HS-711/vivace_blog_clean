@@ -2,7 +2,7 @@ module.exports = {
   title: "vivace",
   description: "Hello :) Welcome to my blog!",
   author: "Vivace",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  siteUrl: "https://vivace-kr.netlify.app/",
   links: {
 //    github: "https://github.com/HS-711",
 //    linkedIn: "https://linkedin.com",
