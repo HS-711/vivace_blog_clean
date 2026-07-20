@@ -6,6 +6,7 @@ update: 2021-04-02
 tags:
   - DB
   - Lock
+  - Transaction
 series: "DataBase"
 ---
 

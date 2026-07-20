@@ -6,6 +6,7 @@ update: 2021-04-04
 tags:
   - DB
   - Lock
+  - Transaction
 series: "DataBase"
 ---
 
@@ -31,10 +32,10 @@ series: "DataBase"
 토마스 쓰기 규칙은 타임스탬프 규약을 개선한 방식이다.
 
 > - $TS(T)<R-Timestamp(Q)$ 라면, Q는 나중에 읽으려고 했던 트랜잭션이 필요한 값으로, write(Q)를 거절하고 T1을 롤백한다.
-> - $TS(T)<W-Timestamp(Q)$ 라면, 나중에 실행된 트랜잭션이 Q를 갱신했으므로,<br/> 시스템은 write(Q)를 거절한다.
+> - $TS(T)<W-Timestamp(Q)$ 라면, 나중에 실행된 트랜잭션이 Q를 갱신했으므로,<br/> **시스템은 write(Q)를 거절한다.**
 > - 다른 경우는 write(Q)를 실행하고 $W-Timestamp(Q)=Write(Q)$로 갱신한다.
 
-타임스탬프 규약과 다른점은 두번째 규칙에 있다.<br/>
+타임스탬프 규약과 다른점은 **두번째 규칙**에 있다.<br/>
 쓸모없는 write를 취소하여 transaction을 rollback하지 않고 무시한다.<br/>
 단순히 명령어를 무시함으로서 **충돌 직렬가능성을 보장하지는 못한다. 그러나 뷰 직렬가능성을 제공한다.**
 
